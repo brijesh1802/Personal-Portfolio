@@ -22,6 +22,12 @@
   #experience,
   .experience-details-container {
     margin-top: 2rem;
+    padding-right: 30px;
+  }
+
+  #projects>.experience-details-container
+  {
+    width: 80vw;
   }
   #profile,
   .section-container {
@@ -45,13 +51,19 @@
   .about-containers {
     margin-top: 0;
   }
+
+  .title{
+    font-size:4rem;
+  }
+
+  #projects{
+    margin-top: 35px;
+  }
+  
 }
 
 @media screen and (max-width: 600px) {
 
-  body{
-    max-width:fit-content;
-  }
   #contact,
   footer {
     height: 40vh;
@@ -66,9 +78,18 @@
     height: fit-content;
   }
 
-  .details-container
+  .experience-details-container
   {
-    max-width:300px;
+    padding: 30px;
+  }
+  .details-container.color-container
+  {
+    max-width:350px;
+  }
+
+  .project-img
+  {
+    width: 180px;
   }
 
   #projects{
@@ -114,7 +135,7 @@
     font-size: 1.25rem;
   }
   .title {
-    font-size: 2rem;
+    font-size: 2.6rem;
   }
   .text-container {
     text-align: justify;
